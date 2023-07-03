@@ -12,12 +12,12 @@ function multiplayNumber3or5 (number) {
                 }          
             }
         } 
-        // постараемся поймать ошибку и вывести ее в консоль
+        // постараемся поймать ошибку и вывести ее в консоль!!! ++++
     catch (error) {
         console.log('возникла ошибка = ', error)
     }
     
     return result;
 }
-console.log(multiplayNumber3or5(49494949));
+console.log(multiplayNumber3or5(3444));
 
