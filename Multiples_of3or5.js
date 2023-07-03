@@ -12,7 +12,7 @@ function multiplayNumber3or5 (number) {
                 }          
             }
         } 
-        // постараемся поймать ошибку
+        // постараемся поймать ошибку и вывести ее в консоль
     catch (error) {
         console.log('возникла ошибка = ', error)
     }
