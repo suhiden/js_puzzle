@@ -1,11 +1,12 @@
-function toCamelCase(str)
-{
-    const myArray = str.split('-')
-    //console.log(myArray[0].toCamelCase())
-    for (let index = 0; index < myArray.length; index++) {
-        console.log(myArray[index].toCamelCase);
-        
-    }
+function toCamelCase(str) {
+
+    let myArray = str.split(/-|_|,/)
+    return myArray.forEach(element => {
+        //console.log(...element[0], element[0].toUpperCase());
+        if (element[0].toLowerCase() == element[0]) { element[0] = element[0].toUpperCase() }
+
+    });
 }
 
-console.log(toCamelCase("the-stealth-warrior"))
+console.log(toCamelCase("The_stealth-warrior_llskdj,kdjfslk"))
+
