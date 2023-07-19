@@ -7,10 +7,9 @@ function toCamelCase(str) {
         res += element[0].toUpperCase() + element.slice(1);
         console.log(res)
     });
-    console.log(res[0]);
-    //console.log(res)
-    return res
+
+    return str[0] + res.slice(1)
 }
 
-console.log(toCamelCase("erkjelkjr_the_stealth-warrior_llskdj,kdjfslk"))
+console.log(toCamelCase("Erkjelkjr_the_stealth-warrior_llskdj,kdjfslk"))
 
