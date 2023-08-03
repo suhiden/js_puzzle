@@ -34,3 +34,14 @@ console.log(domainName("https://www.cnet.com"))
 //     url = url.replace("www.", '');
 //     return url.split('.')[0];
 //   };
+
+function domainNameBeter(url) {
+    //your code here
+    return url.match(/((https?:\/\/)?(www.)?)([a-zA-Z-]+)/)[4]
+    // .map(t => console.log(t))
+}
+
+console.log(domainNameBeter("http://github.com/carbonfive/raygun"));
+
+console.log(domainNameBeter("https://www.cnet.com"))
+console.log(domainNameBeter("www.xakep.ru"))

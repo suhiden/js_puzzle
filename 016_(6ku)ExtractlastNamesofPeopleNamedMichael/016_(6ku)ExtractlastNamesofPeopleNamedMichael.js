@@ -1,5 +1,6 @@
 function getMichaelLastName(inputText) {
     // your awesome code here
+
     let name = inputText.match(/((Michael\s)([A-Z]\w+))/g)
     const fam = [];
     for (let index = 0; index < name.length; index++) {
