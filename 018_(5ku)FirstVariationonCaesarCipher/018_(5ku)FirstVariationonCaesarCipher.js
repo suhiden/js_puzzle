@@ -9,7 +9,7 @@ function movingShift(str, shift) {
         if (alphabet.indexOf(leter) == -1) { sCod = sCod + leter }
         if (alphabet.indexOf(leter) != -1) { sCod = sCod + leterCipher }
 
-        shift = shift + 1
+        shift = shift + 1;
     }
     return sCod;
 }
@@ -22,6 +22,9 @@ const u = "i should have known that you would have a perfect answer for me!!!"
 const k = "j vltasl rlhr zdfog odxr ypw atasl rlhr p gwkzzyq zntyhv lvz wp!!!"
 let shift = 1
 //let chipher = movingShift(u, shift)
+// for (let index = 0; index < 30; index++) {
+//     console.log(movingShift(u, index));
 
+// }
 console.log(movingShift(u, shift))
 //console.log(demovingShift(u, shift))
