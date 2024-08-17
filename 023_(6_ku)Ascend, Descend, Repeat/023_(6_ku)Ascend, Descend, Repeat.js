@@ -11,4 +11,4 @@ function ascendDescend(length, minimum, maximum) {
 }
 
 console.log("length, minimum, maximum");
-console.log(ascendDescend(40, 1, 9));
+console.log(ascendDescend(40, 4, 9));
